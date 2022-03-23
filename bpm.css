@@ -7,7 +7,7 @@ body{
 .content_grid_template{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    min-height: 10000px;
+    height: 100vh;
 }
 
 /*** Description section of BPM ***/
@@ -50,6 +50,10 @@ body{
     font-weight: 400;
     border-style: none;
     border-radius: 3px;
+}
+.content_grid_template #btn_solution_style #text{
+    display:inline;
+    height: 200px;
 }
 .content_grid_template #btn_solution_style button:before{
     content: url(images/monitor-solucao.svg);
@@ -278,3 +282,30 @@ body{
 }
 }
 
+
+
+
+.btn-header1 {
+    display: block;
+    margin: auto;
+    background-color: #dd3333;
+    color: white;
+	padding: 0 15px;
+    font-size: 16px;
+    line-height: 45px;
+    text-transform: none;
+    box-shadow: none;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    margin-bottom: 60px;
+}
+.span-btn-header{
+    margin-left: 5px;
+}
+.icone-solucao-solicite-apresentacao::before {
+    content: url(images/monitor-solucao.svg);
+    float: left;
+    width: 28px;
+    height: 26px;
+    margin-top: 6px;
+}
